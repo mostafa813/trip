@@ -1,0 +1,153 @@
+@import url(//db.onlinewebfonts.com/c/ae238c3ee498c52a23aab0d9f5e94d6b?family=dana-fanum);
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Dana-FaNum";
+}
+.container {
+  padding: 0 20px;
+}
+input {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.search-bar {
+  border: 1px solid #dadada;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 16px;
+  gap: 8px;
+  height: 56px;
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+.banner {
+  background: #101010;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+.banner-text {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.banner-btn {
+  font-weight: 500;
+  font-size: 12px;
+  color: #101010;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 113px;
+  height: 32px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+  margin-top: 8px;
+}
+.category {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0.75rem;
+  column-gap: 0.75rem;
+}
+.category-parts {
+  background: #f3f3f3;
+  border-radius: 50px;
+  text-align: center;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.see-all {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ff4332;
+  text-transform: capitalize;
+}
+.category-places {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+.place-kind {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+}
+.place-kind > div {
+  margin: 0 6px;
+}
+.place-kind p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #101010;
+}
+.place-kind > :nth-child(1) {
+  margin-left: 24px;
+}
+.Trending1 {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 12px 0 12px;
+}
+.Trending2 {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #878787;
+  gap: 8px;
+  margin-top: 6px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+.Trending3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 12px 0px 12px;
+  padding-bottom: 12px;
+}
+.Trending {
+  box-shadow: 4px 4px 16px rgba(18, 18, 18, 0.06);
+  border-radius: 0px 0px 12px 12px;
+  width: 257px;
+}
+.Trend {
+  display: flex;
+  overflow-y: scroll;
+  margin: 16px 0 35px 0;
+}
+.Trend > div {
+  margin: 0 16px;
+}
+.Trend > :nth-child(1) {
+  margin-left: 24px;
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #101010;
+}
