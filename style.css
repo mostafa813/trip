@@ -151,3 +151,20 @@ input {
   text-transform: capitalize;
   color: #101010;
 }
+.banner2 {
+  background: #ff4332;
+  border-radius: 12px;
+  margin-top: 35px;
+}
+.banner-btn2 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ff4332;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 113px;
+  height: 32px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+  margin-top: 8px;
+}
