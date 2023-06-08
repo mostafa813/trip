@@ -4,6 +4,9 @@
   margin: 0;
   font-family: "Dana-FaNum";
 }
+.head{
+  border-bottom: 1px solid #F3F3F3;
+}
 .container {
   padding: 0 20px;
 }
@@ -26,8 +29,7 @@ input {
   padding: 0 16px;
   gap: 8px;
   height: 56px;
-  margin-top: 23px;
-  margin-bottom: 16px;
+  margin: 24px 24px 16px 24px;
 }
 .banner {
   background: #101010;
@@ -229,4 +231,10 @@ input {
 }
 .suggestions > :nth-child(1) {
   margin-left: 24px;
+}
+.footer{
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
 }
