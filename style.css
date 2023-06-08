@@ -90,7 +90,7 @@ input {
   justify-content: space-between;
   flex-wrap: nowrap;
   overflow-y: scroll;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
 }
 .place-kind > div {
   margin: 0 6px;
