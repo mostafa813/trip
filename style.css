@@ -119,6 +119,19 @@ input {
   color: #878787;
   gap: 8px;
   margin-top: 6px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+.Trending23 {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #878787;
+  gap: 8px;
+  margin-top: 6px;
   margin-bottom: 12px;
   align-items: center;
 }
