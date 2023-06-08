@@ -139,12 +139,12 @@ input {
 .Trending3 {
   display: flex;
   justify-content: space-between;
-  margin: 12px 12px 0px 12px;
-  padding-bottom: 12px;
+  padding: 12px 12px 12px 12px;
+  border-top: 2px solid #F3F3F3;;
 }
 .Trending {
   box-shadow: 4px 4px 4px rgba(18, 18, 18, 0.06);
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 12px;
   width: 257px;
 }
 .Trend {
@@ -222,6 +222,7 @@ input {
 .suggestions{
   overflow-y: scroll;
   display: flex;
+  padding-bottom: 10px;
 }
 .suggestions >div{
   margin-left: 16px;
