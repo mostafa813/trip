@@ -90,6 +90,7 @@ input {
   justify-content: space-between;
   flex-wrap: nowrap;
   overflow-y: scroll;
+  padding-bottom: 2px;
 }
 .place-kind > div {
   margin: 0 6px;
@@ -142,7 +143,7 @@ input {
   padding-bottom: 12px;
 }
 .Trending {
-  box-shadow: 4px 4px 16px rgba(18, 18, 18, 0.06);
+  box-shadow: 4px 4px 4px rgba(18, 18, 18, 0.06);
   border-radius: 0px 0px 12px 12px;
   width: 257px;
 }
@@ -150,6 +151,7 @@ input {
   display: flex;
   overflow-y: scroll;
   margin: 16px 0 35px 0;
+  padding-bottom: 10px
 }
 .Trend > div {
   margin: 0 16px;
